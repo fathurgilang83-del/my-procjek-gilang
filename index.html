@@ -1,0 +1,296 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#090d14">
+  <meta name="description" content="Profil Fathur Gilang Nur Rachman, siswa Chandra Buana yang bercita-cita menjadi pemain basket.">
+
+  <title>Fathur Gilang — Basketball Profile</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800;900&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+<div class="page-shell" id="home">
+
+  <!-- NAVIGASI -->
+  <header class="navbar">
+    <a href="#home" class="brand" aria-label="Fathur Gilang beranda">
+      <span class="brand-mark">FG<span>.</span></span>
+      <span class="brand-caption">PLAYER PROFILE<br>EST. 2026</span>
+    </a>
+
+    <button
+      class="menu-toggle"
+      id="menuToggle"
+      aria-label="Buka navigasi"
+      aria-expanded="false"
+      aria-controls="navLinks"
+      type="button"
+    >
+      <span></span><span></span>
+    </button>
+
+    <nav class="nav-links" id="navLinks">
+      <a href="#home" class="nav-link active">Beranda</a>
+      <a href="#about" class="nav-link">Tentang</a>
+      <a href="#ambition" class="nav-link">Impian</a>
+      <a href="#contact" class="nav-cta">Kenali Saya <span>↗</span></a>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- BERANDA -->
+    <section class="hero">
+      <div class="hero-copy">
+        <div class="eyebrow reveal">
+          <span class="status-dot"></span>
+          STUDENT • BASKETBALL ENTHUSIAST
+        </div>
+
+        <p class="hero-intro reveal">THIS IS MY GAME.</p>
+
+        <h1 class="hero-title reveal">
+          FATHUR
+          <span>GILANG</span>
+          <span class="title-last">NUR RACHMAN<span class="blue-dot">.</span></span>
+        </h1>
+
+        <div class="hero-bottom reveal">
+          <p class="hero-description">
+            Bukan cuma tentang memasukkan bola.
+            Ini tentang disiplin, kerja keras, dan terus berkembang
+            untuk mengejar mimpi.
+          </p>
+
+          <a class="round-link" href="#about" aria-label="Lihat profil">
+            <span>↓</span>
+          </a>
+        </div>
+      </div>
+
+      <!-- FOTO PROFIL: TIDAK ADA TAG DUPLIKAT -->
+      <div class="hero-visual reveal">
+        <div class="profile-frame">
+          <div class="profile-frame-inner">
+            <img
+              src="./images/profil.jpg"
+              alt="Foto profil Fathur Gilang Nur Rachman"
+              class="profile-photo"
+              onerror="this.onerror=null; this.src='https://placehold.co/500x500/101b2b/38bdf8?text=FATHUR';"
+            >
+          </div>
+
+          <span class="frame-orbit orbit-one"></span>
+          <span class="frame-orbit orbit-two"></span>
+        </div>
+
+        <p class="profile-caption">FATHUR GILANG NUR RACHMAN</p>
+        <span class="profile-tag">STUDENT · BASKETBALL</span>
+      </div>
+
+      <div class="hero-index" aria-hidden="true">FG — 26</div>
+    </section>
+
+    <!-- TEKS BERJALAN -->
+    <section class="ticker" aria-label="Semangat basket">
+      <div class="ticker-track">
+        <span>WORK HARD</span><i>✳</i>
+        <span>STAY FOCUSED</span><i>✳</i>
+        <span>PLAY WITH HEART</span><i>✳</i>
+        <span>WORK HARD</span><i>✳</i>
+        <span>STAY FOCUSED</span><i>✳</i>
+        <span>PLAY WITH HEART</span><i>✳</i>
+      </div>
+    </section>
+
+    <!-- KENALI DIRI SAYA -->
+    <section class="about section-pad" id="about">
+      <div class="section-heading reveal">
+        <p class="section-kicker">01 / THE PLAYER</p>
+        <h2>KENALI<br><span>DIRI SAYA.</span></h2>
+      </div>
+
+      <div class="about-content reveal">
+        <p class="about-lead">
+          Setiap pemain punya cerita.
+          <span>Ini awal cerita saya.</span>
+        </p>
+
+        <p class="about-description">
+          Saya Fathur Gilang Nur Rachman, seorang pelajar
+          di Chandra Buana yang memiliki ketertarikan besar
+          terhadap dunia basket. Saya ingin terus belajar,
+          melatih kemampuan, dan membangun mental yang kuat
+          untuk mewujudkan cita-cita saya.
+        </p>
+
+        <div class="profile-details">
+          <div class="detail-item">
+            <span class="detail-label">NAMA</span>
+            <span class="detail-value">Fathur Gilang Nur Rachman</span>
+          </div>
+
+          <div class="detail-item">
+            <span class="detail-label">SEKOLAH</span>
+            <a
+              class="detail-value school-link"
+              href="https://chandrabuana.sch.id/smp"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Chandra Buana ↗
+            </a>
+          </div>
+
+          <div class="detail-item">
+            <span class="detail-label">HOBI</span>
+            <span class="detail-value">Bermain Basket</span>
+          </div>
+
+          <div class="detail-item">
+            <span class="detail-label">CITA-CITA</span>
+            <span class="detail-value">Pemain Basket</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- PREVIEW WEBSITE SEKOLAH -->
+      <div class="school-preview reveal">
+        <div class="school-preview-heading">
+          <div>
+            <p class="section-kicker">SCHOOL WEBSITE</p>
+            <h3>SMP CHANDRA BUANA<span>.</span></h3>
+            <p>Preview website sekolah saya.</p>
+          </div>
+
+          <a
+            href="https://chandrabuana.sch.id/smp"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="school-open-link"
+          >
+            Buka Website ↗
+          </a>
+        </div>
+
+        <div class="school-browser">
+          <div class="school-browser-bar">
+            <div class="browser-dots" aria-hidden="true">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+
+            <span class="browser-address">
+              https://chandrabuana.sch.id/smp
+            </span>
+          </div>
+
+          <iframe
+            src="https://chandrabuana.sch.id/smp"
+            title="Preview website SMP Chandra Buana"
+            loading="lazy"
+            referrerpolicy="strict-origin-when-cross-origin"
+          ></iframe>
+
+          <p class="school-preview-note">
+            Jika preview tidak tampil, gunakan tombol Buka Website di atas.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- IMPIAN MENJADI PEMAIN BASKET -->
+    <section class="ambition" id="ambition">
+      <div class="ambition-image">
+        <img
+          src="https://images.unsplash.com/photo-1519861531473-9200262188bf?auto=format&fit=crop&w=1400&q=85"
+          alt="Lapangan basket untuk berlatih"
+          loading="lazy"
+        >
+        <div class="ambition-image-shade"></div>
+        <span class="image-side-text">KEEP MOVING FORWARD</span>
+      </div>
+
+      <div class="ambition-content reveal">
+        <p class="section-kicker">02 / THE AMBITION</p>
+        <p class="ambition-overline">DREAM IT. WORK FOR IT.</p>
+
+        <h2>MY DREAM<br>IS TO <span>PLAY.</span></h2>
+
+        <p class="ambition-description">
+          Saya bercita-cita menjadi pemain basket.
+          Bagi saya, mimpi bukan hanya sesuatu yang ingin dicapai,
+          tetapi sesuatu yang perlu diperjuangkan lewat latihan,
+          konsistensi, dan keberanian untuk terus mencoba.
+        </p>
+
+        <a href="#contact" class="text-link">
+          LEBIH JAUH, LEBIH TINGGI <span>↗</span>
+        </a>
+      </div>
+
+      <span class="ambition-number">02</span>
+    </section>
+
+    <!-- NILAI DAN MINDSET -->
+    <section class="values section-pad">
+      <div class="values-top reveal">
+        <p class="section-kicker">03 / MY MINDSET</p>
+        <h2>MORE THAN<br><span>A GAME.</span></h2>
+      </div>
+
+      <div class="values-grid">
+        <article class="value-item reveal">
+          <span class="value-number">01</span>
+          <h3>DISCIPLINE<span>.</span></h3>
+          <p>Berlatih dengan konsisten dan menghargai setiap proses.</p>
+        </article>
+
+        <article class="value-item reveal">
+          <span class="value-number">02</span>
+          <h3>COURAGE<span>.</span></h3>
+          <p>Berani mencoba, belajar dari kesalahan, dan bangkit kembali.</p>
+        </article>
+
+        <article class="value-item reveal">
+          <span class="value-number">03</span>
+          <h3>PROGRESS<span>.</span></h3>
+          <p>Menjadi lebih baik sedikit demi sedikit, setiap hari.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- PENUTUP -->
+    <section class="closing" id="contact">
+      <div class="closing-inner reveal">
+        <p class="section-kicker">THE JOURNEY CONTINUES</p>
+        <h2>SEE YOU<br><span>ON THE COURT.</span></h2>
+        <p>Setiap mimpi punya awal. Ini adalah awal saya.</p>
+        <a href="#home" class="back-top">KEMBALI KE ATAS ↑</a>
+      </div>
+
+      <div class="closing-watermark" aria-hidden="true">FG.</div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <a href="#home" class="footer-brand">FG<span>.</span></a>
+    <p>PERSONAL PROFILE · 2026</p>
+    <p>MADE WITH PURPOSE <span>✳</span></p>
+  </footer>
+
+</div>
+</body>
+</html>
